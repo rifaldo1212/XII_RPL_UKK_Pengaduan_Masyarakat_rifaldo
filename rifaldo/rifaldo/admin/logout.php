@@ -1,16 +1,8 @@
-<?php
 
+<?php
 session_start();
 
+session_destroy();
 
-$username = $_POST['username'];
-$password = $_POST['password'];
-
-$koneksi = new PDO("mysql:host=localhost;dbname=pengaduanmasyarakat",'root','');
-$query = $koneksi->query("SELECT * FROM `masyarakat` WHERE username='$username' AND password='$password'");
- 
-if($query){
-    $_SESSION['username'] = $username;
-    $_SESSION['password'] = $password;
-header ("location:loginf.php"); 
-}
+header("location:loginf.php");
+?>

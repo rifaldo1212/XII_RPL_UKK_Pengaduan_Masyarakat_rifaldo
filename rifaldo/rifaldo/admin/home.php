@@ -17,8 +17,7 @@ session_start();
 </head>
 <body style="background:WHITE">
     <div class="container mt-5">
-    <h1 class="text-black">selamat datang</h1>
-    <h4 class="text-black">admin</h4>
+    <h1 class="text-black">Admin</h1>
     <div class="card text-center">
   <div class="card-header">
     <ul class="nav nav-pills card-header-pills">
@@ -36,3 +35,13 @@ session_start();
 </div>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
